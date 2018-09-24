@@ -13,7 +13,16 @@ func main() {
 
 	//debug.Main()
 
+	//defer
+	// basic.DeferMain()
 
 	//线程同步测试
-	basic.SyncTest()
+	// basic.SyncTest()
+
+	// basic.BufioMain()
+	// basic.NetMain()
+
+	//flag包使用测试
+	basic.FlagMain()
+
 }

@@ -2,21 +2,21 @@ package basic
 
 import (
 	"fmt"
-
-	"code.byted.org/gopkg/pkg/errors"
+	"github.com/pkg/errors"
 )
 
 const PLATFORM_APP_IDENTITY_TYPE_UID = 10
 
-func main() {
+func DeferMain() {
 	//fmt.Println("###1")
-	//testDefer1()
+	testDefer1()
 	//fmt.Println("###2")
 	//testDefer2()
 	//fmt.Println("###panic-recover")
-	recoverFromPanic1()
+	// recoverFromPanic1()
 }
 
+// defer
 func testDefer1() {
 	for i := 0; i < 5; i++ {
 		defer func() {

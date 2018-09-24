@@ -2,9 +2,9 @@ package debug
 
 import (
 	"fmt"
-	"time"
 	"os"
 	"runtime/pprof"
+	"time"
 )
 
 func Main() {

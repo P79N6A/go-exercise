@@ -6,8 +6,7 @@ import (
 	"sort"
 )
 
-
-func TestParamName()  {
+func TestParamName() {
 	fmt.Println(basic.PLATFORM_APP_IDENTITY_TYPE_UID)
 }
 
