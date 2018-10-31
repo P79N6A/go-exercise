@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/swa19/go-exercise/basic"
-)
+import "github.com/swa19/go-exercise/basic"
 
 func main() {
 	//test.TestParamName()
@@ -23,6 +21,9 @@ func main() {
 	// basic.NetMain()
 
 	//flag包使用测试
-	basic.FlagMain()
+	//basic.FlagMain()
 
+
+	//map的make初始化和赋值
+	basic.InitMap()
 }
